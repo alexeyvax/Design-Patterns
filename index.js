@@ -7,6 +7,7 @@ const decorator = require('./decorator');
 const facade = require('./facade');
 const proxy = require('./proxy');
 const adapter = require('./adapter');
+const composite = require('./composite');
 
 singleton();
 factory();
@@ -17,3 +18,4 @@ decorator();
 facade();
 proxy();
 adapter();
+composite();
